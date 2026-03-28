@@ -234,7 +234,7 @@ fieldset {
  * 1. Correct the text wrapping in Edge and IE.
  * 2. Correct the color inheritance from `fieldset` elements in IE.
  * 3. Remove the padding so developers are not caught out when they zero out
- * `fieldset` elements in all browsers.
+ *    `fieldset` elements in all browsers.
  */
 
 legend {
@@ -500,6 +500,13 @@ ul.row{
 [class^="col-"] {
   float: left;
   padding: 0.5rem;
+
+}
+
+[data-section-theme="dark"] {
+  --text-color: var(--color-white);
+  --section-title-color: var(--color-white);
+  background-color: var(--color-black);
 }
 
 .footer-copyright{
